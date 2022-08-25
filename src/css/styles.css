@@ -64,6 +64,11 @@ form input {
   overflow: hidden;
 }
 
+.photo-card img {
+  object-fit: cover;
+  width: 300px;
+  height: 200px;
+}
 .info {
   display: flex;
   justify-content: space-between;
